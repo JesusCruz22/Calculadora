@@ -80,6 +80,7 @@ console.log(window.event.target.value);
 
 // Función para borrar todos los caracteres agregados a la caja de texto.
 function limpiarOperacion() {
+    contadorPuntos = 0;
     operacion = document.getElementById("operacion");
     operacion.value = "";
 }
@@ -197,6 +198,7 @@ document.addEventListener("keypress", function(e) {
 
 // Función para ejecutar el calculo de la operación ingresada.
 function calcular() {
+    contadorPuntos = 0;
     // Almacenar operacion ingresada en la variable operación
     operacion = document.getElementById("operacion");
     // Dividir los elementos de la operacion ingresada y almacenarlos en el arreglo elementosOperacion
