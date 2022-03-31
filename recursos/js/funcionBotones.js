@@ -1,9 +1,9 @@
 
-//#region = Sección de funciones descartadas en la version final
+//#region = Seccion de funciones descartadas en la version final
 
 contadorPuntos = 0;
 
-// Función para agregar el caracter presionado en la botonera en el campo de texto.
+// Funci0n para agregar el caracter presionado en la botonera en el campo de texto.
 function mostrarCaracter() {
     // Asignar el texto introducido por el usuario a la variable operacion
     operacion = document.getElementById("operacion");
@@ -81,7 +81,7 @@ function mostrarCaracter() {
     }
 }
 
-// Función para ejecutar el calculo de la operación ingresada.
+// Funci0n para ejecutar el calculo de la operación ingresada.
 function calcular() {
     // Almacenar operacion ingresada en la variable operación
     operacion = document.getElementById("operacion");
@@ -116,7 +116,7 @@ function calcular() {
     operacion.value = resultado;
 }
 
-// Función para controlar las teclas que se pueden y no se pueden agrgar en la caja de texto.
+// Funci0n para controlar las teclas que se pueden y no se pueden agrgar en la caja de texto.
 function controlTeclas(e) {
     // Asignar el elemento donde se agregara la operacion a la variable operación
     operacion = document.getElementById("operacion");
@@ -151,7 +151,7 @@ function controlTeclas(e) {
 //#endregion
 
 
-//#region = Sección de funciones usadas en la version final*/
+//#region = Seccion de funciones usadas */
 
 // CAJA DE TEXTO
 operacion = document.getElementById("operacion");
